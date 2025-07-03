@@ -28,7 +28,7 @@ public class TC_01 {
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
 		String expectedmsg="Your Account Has Been Created!";
 		String actmsg=driver.findElement(By.xpath("//h1[normalize-space()='Your Account Has Been Created!']")).getText();
-		Assert.assertEquals(actmsg, expectedmsg);	
+		Assert.assertEquals(actmsg, expectedmsg);
 	}
 	
 	public String getEmailAddress() {
