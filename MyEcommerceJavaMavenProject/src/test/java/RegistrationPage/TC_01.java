@@ -1,4 +1,4 @@
-package register;
+package RegistrationPage;
 import java.time.Duration;
 import java.util.Date;
 import org.openqa.selenium.By;
@@ -19,7 +19,7 @@ public class TC_01 {
 		driver.findElement(By.xpath("//a[normalize-space()='Register']")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("mairaj");
 		driver.findElement(By.id("input-lastname")).sendKeys("ali");
-		driver.findElement(By.id("input-email")).sendKeys(getEmailAddress());
+		driver.findElement(By.id("input-email")).sendKeys(getEmailWithTimeStamp());
 		driver.findElement(By.id("input-telephone")).sendKeys("9634068065");
 		driver.findElement(By.id("input-password")).sendKeys("Maa@1987");
 		driver.findElement(By.id("input-confirm")).sendKeys("Maa@1987");
@@ -29,9 +29,10 @@ public class TC_01 {
 		String expectedmsg="Your Account Has Been Created!";
 		String actmsg=driver.findElement(By.xpath("//h1[normalize-space()='Your Account Has Been Created!']")).getText();
 		Assert.assertEquals(actmsg, expectedmsg);
+		
 	}
 	
-	public String getEmailAddress() {
+	public String getEmailWithTimeStamp() {
 		String emailaddress=new Date().toString().replaceAll("\\ ", "").replaceAll("\\:","")+"@gmail.com";
 		return emailaddress;
 	}
