@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T19:23:31 IST" name="Default suite" finished-at="2025-07-17T19:23:42 IST" duration-ms="10176">
+  <suite started-at="2025-07-21T18:26:59 IST" name="Default suite" finished-at="2025-07-21T18:27:07 IST" duration-ms="8588">
     <groups>
     </groups>
-    <test started-at="2025-07-17T19:23:31 IST" name="Default test" finished-at="2025-07-17T19:23:42 IST" duration-ms="10176">
-      <class name="RegistrationPage.TC_04">
-        <test-method signature="registerNonSubscriber()[pri:0, instance:RegistrationPage.TC_04@75d3a5e0]" started-at="2025-07-17T19:23:32 IST" name="registerNonSubscriber" finished-at="2025-07-17T19:23:42 IST" duration-ms="10123" status="PASS">
+    <test started-at="2025-07-21T18:26:59 IST" name="Default test" finished-at="2025-07-21T18:27:07 IST" duration-ms="8588">
+      <class name="RegistrationPage.TC_08">
+        <test-method signature="getWrongPassowrd()[pri:0, instance:RegistrationPage.TC_08@74d1dc36]" started-at="2025-07-21T18:26:59 IST" name="getWrongPassowrd" finished-at="2025-07-21T18:27:07 IST" duration-ms="8520" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerNonSubscriber -->
-      </class> <!-- RegistrationPage.TC_04 -->
+        </test-method> <!-- getWrongPassowrd -->
+      </class> <!-- RegistrationPage.TC_08 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
