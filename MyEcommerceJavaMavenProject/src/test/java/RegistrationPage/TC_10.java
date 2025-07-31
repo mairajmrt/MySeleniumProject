@@ -2,20 +2,18 @@ package RegistrationPage;
 
 import java.time.Duration;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import GlobalUtility.CommonUtils;
+import junit.framework.Assert;
 
-public class TC_08 {
+public class TC_10 {
 
 	@Test
 
-	public static void getWrongPassowrd() {
+	void getSameRegisterUser() {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
@@ -25,18 +23,17 @@ public class TC_08 {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("mairaj");
 		driver.findElement(By.id("input-lastname")).sendKeys("ali");
-		driver.findElement(By.id("input-email")).sendKeys(CommonUtils.getNewEmailAddress());
-		driver.findElement(By.id("input-telephone")).sendKeys("9634068065");
-		driver.findElement(By.id("input-password")).sendKeys("Maa@1987");
-		driver.findElement(By.id("input-confirm")).sendKeys("Maa@198");
+		driver.findElement(By.id("input-email")).sendKeys("ali123@gmail.com");
+		driver.findElement(By.id("input-telephone")).sendKeys("12345");
+		driver.findElement(By.id("input-password")).sendKeys("12345");
+		driver.findElement(By.id("input-confirm")).sendKeys("12345");
 		driver.findElement(By.xpath("//label[normalize-space()='Yes']//input[@name='newsletter']")).click();
 		driver.findElement(By.xpath("//input[@name='agree']")).click();
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
-		Assert.assertEquals(driver.findElement(By.xpath("//div[@class='text-danger']")).getText(),
-				"Password confirmation does not match password!");
+		Assert.assertEquals(
+				driver.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']")).getText(),
+				"Warning: E-Mail Address is already registered!!");
 
 	}
-
-	
 
 }

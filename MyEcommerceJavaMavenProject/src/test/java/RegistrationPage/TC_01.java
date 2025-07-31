@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import GlobalUtility.CommonUtils;
+
 public class TC_01 {
 	@Test
 	public void getRegister() {
@@ -19,7 +21,7 @@ public class TC_01 {
 		driver.findElement(By.xpath("//a[normalize-space()='Register']")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("mairaj");
 		driver.findElement(By.id("input-lastname")).sendKeys("ali");
-		driver.findElement(By.id("input-email")).sendKeys(getEmailWithTimeStamp());
+		driver.findElement(By.id("input-email")).sendKeys(CommonUtils.getNewEmailAddress());
 		driver.findElement(By.id("input-telephone")).sendKeys("9634068065");
 		driver.findElement(By.id("input-password")).sendKeys("Maa@1987");
 		driver.findElement(By.id("input-confirm")).sendKeys("Maa@1987");
@@ -31,8 +33,5 @@ public class TC_01 {
 		Assert.assertEquals(actmsg, expectedmsg);	
 	}
 	
-	public String getEmailWithTimeStamp() {
-		String emailaddress=new Date().toString().replaceAll("\\ ", "").replaceAll("\\:","")+"@gmail.com";
-		return emailaddress;
-	}
+	
 }

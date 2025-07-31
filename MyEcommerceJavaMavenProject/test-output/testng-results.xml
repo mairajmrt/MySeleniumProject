@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-21T18:26:59 IST" name="Default suite" finished-at="2025-07-21T18:27:07 IST" duration-ms="8588">
+  <suite started-at="2025-07-31T16:59:07 IST" name="Default suite" finished-at="2025-07-31T16:59:21 IST" duration-ms="13996">
     <groups>
     </groups>
-    <test started-at="2025-07-21T18:26:59 IST" name="Default test" finished-at="2025-07-21T18:27:07 IST" duration-ms="8588">
-      <class name="RegistrationPage.TC_08">
-        <test-method signature="getWrongPassowrd()[pri:0, instance:RegistrationPage.TC_08@74d1dc36]" started-at="2025-07-21T18:26:59 IST" name="getWrongPassowrd" finished-at="2025-07-21T18:27:07 IST" duration-ms="8520" status="PASS">
+    <test started-at="2025-07-31T16:59:07 IST" name="Default test" finished-at="2025-07-31T16:59:21 IST" duration-ms="13996">
+      <class name="RegistrationPage.TC_13">
+        <test-method signature="getVerificationUnderPlaceHolder()[pri:0, instance:RegistrationPage.TC_13@75d3a5e0]" started-at="2025-07-31T16:59:07 IST" name="getVerificationUnderPlaceHolder" finished-at="2025-07-31T16:59:21 IST" duration-ms="13941" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWrongPassowrd -->
-      </class> <!-- RegistrationPage.TC_08 -->
+        </test-method> <!-- getVerificationUnderPlaceHolder -->
+      </class> <!-- RegistrationPage.TC_13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
