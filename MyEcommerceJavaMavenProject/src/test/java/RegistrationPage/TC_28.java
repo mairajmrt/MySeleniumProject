@@ -61,19 +61,8 @@ public class TC_28 {
 	@Test
 
 	void verifyRegisterPageDiffEnv() throws InterruptedException {
-
-		String browserName = "firefox";
-
-		if (browserName.equals("chrome")) {
-			driver = new ChromeDriver();
-		} else if (browserName.equals("firefox")) {
-			driver = new FirefoxDriver();
-		}
-
-		else if (browserName.equals("edge")) {
-			driver = new EdgeDriver();
-		}
-
+		
+		driver.get("https://tutorialsninja.com/demo/");
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("Mairaj");
@@ -90,7 +79,7 @@ public class TC_28 {
 		String actmsg = driver.findElement(By.xpath("//h1[normalize-space()='Your Account Has Been Created!']"))
 				.getText();
 		Assert.assertEquals(actmsg, expectedmsg);
-		driver.quit();
+
 	}
 
 }
