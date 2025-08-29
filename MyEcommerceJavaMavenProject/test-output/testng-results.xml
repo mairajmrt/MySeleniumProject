@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T16:59:07 IST" name="Default suite" finished-at="2025-07-31T16:59:21 IST" duration-ms="13996">
+  <suite started-at="2025-08-29T15:13:18 IST" name="Default suite" finished-at="2025-08-29T15:13:30 IST" duration-ms="11854">
     <groups>
     </groups>
-    <test started-at="2025-07-31T16:59:07 IST" name="Default test" finished-at="2025-07-31T16:59:21 IST" duration-ms="13996">
-      <class name="RegistrationPage.TC_13">
-        <test-method signature="getVerificationUnderPlaceHolder()[pri:0, instance:RegistrationPage.TC_13@75d3a5e0]" started-at="2025-07-31T16:59:07 IST" name="getVerificationUnderPlaceHolder" finished-at="2025-07-31T16:59:21 IST" duration-ms="13941" status="PASS">
+    <test started-at="2025-08-29T15:13:18 IST" name="Default test" finished-at="2025-08-29T15:13:30 IST" duration-ms="11854">
+      <class name="RegistrationPage.TC_28">
+        <test-method signature="verifyRegisterPageDiffEnv()[pri:0, instance:RegistrationPage.TC_28@19e4653c]" started-at="2025-08-29T15:13:19 IST" name="verifyRegisterPageDiffEnv" finished-at="2025-08-29T15:13:30 IST" duration-ms="11812" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getVerificationUnderPlaceHolder -->
-      </class> <!-- RegistrationPage.TC_13 -->
+        </test-method> <!-- verifyRegisterPageDiffEnv -->
+      </class> <!-- RegistrationPage.TC_28 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
