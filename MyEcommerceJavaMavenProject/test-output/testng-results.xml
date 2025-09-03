@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T15:50:39 IST" name="Default suite" finished-at="2025-08-29T15:51:24 IST" duration-ms="45388">
+  <suite started-at="2025-09-03T19:03:33 IST" name="Default suite" finished-at="2025-09-03T19:03:47 IST" duration-ms="14279">
     <groups>
     </groups>
-    <test started-at="2025-08-29T15:50:39 IST" name="Default test" finished-at="2025-08-29T15:51:24 IST" duration-ms="45388">
-      <class name="RegistrationPage.TC_01">
-        <test-method is-config="true" signature="setupt()[pri:0, instance:RegistrationPage.TC_01@196a42c3]" started-at="2025-08-29T15:50:39 IST" name="setupt" finished-at="2025-08-29T15:50:50 IST" duration-ms="11637" status="PASS">
+    <test started-at="2025-09-03T19:03:33 IST" name="Default test" finished-at="2025-09-03T19:03:47 IST" duration-ms="14279">
+      <class name="RegistrationPage.TC_23">
+        <test-method is-config="true" signature="setupt()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:33 IST" name="setupt" finished-at="2025-09-03T19:03:41 IST" duration-ms="7945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupt -->
-        <test-method signature="getRegister()[pri:0, instance:RegistrationPage.TC_01@196a42c3]" started-at="2025-08-29T15:50:50 IST" name="getRegister" finished-at="2025-08-29T15:51:20 IST" duration-ms="29415" status="PASS">
+        <test-method signature="verfiyNextPageLocation()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:41 IST" name="verfiyNextPageLocation" finished-at="2025-09-03T19:03:43 IST" duration-ms="1376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getRegister -->
-        <test-method is-config="true" signature="downApplication()[pri:0, instance:RegistrationPage.TC_01@196a42c3]" started-at="2025-08-29T15:51:20 IST" name="downApplication" finished-at="2025-08-29T15:51:24 IST" duration-ms="4283" status="PASS">
+        </test-method> <!-- verfiyNextPageLocation -->
+        <test-method is-config="true" signature="downApplication()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:43 IST" name="downApplication" finished-at="2025-09-03T19:03:47 IST" duration-ms="4916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downApplication -->
-      </class> <!-- RegistrationPage.TC_01 -->
+      </class> <!-- RegistrationPage.TC_23 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
