@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-03T19:03:33 IST" name="Default suite" finished-at="2025-09-03T19:03:47 IST" duration-ms="14279">
+  <suite started-at="2025-09-04T16:30:17 IST" name="Default suite" finished-at="2025-09-04T16:30:29 IST" duration-ms="12612">
     <groups>
     </groups>
-    <test started-at="2025-09-03T19:03:33 IST" name="Default test" finished-at="2025-09-03T19:03:47 IST" duration-ms="14279">
-      <class name="RegistrationPage.TC_23">
-        <test-method is-config="true" signature="setupt()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:33 IST" name="setupt" finished-at="2025-09-03T19:03:41 IST" duration-ms="7945" status="PASS">
+    <test started-at="2025-09-04T16:30:17 IST" name="Default test" finished-at="2025-09-04T16:30:29 IST" duration-ms="12612">
+      <class name="RegistrationPage.TC_31">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RegistrationPage.TC_31@4082ba93]" started-at="2025-09-04T16:30:17 IST" name="setup" finished-at="2025-09-04T16:30:23 IST" duration-ms="6174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupt -->
-        <test-method signature="verfiyNextPageLocation()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:41 IST" name="verfiyNextPageLocation" finished-at="2025-09-03T19:03:43 IST" duration-ms="1376" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="homePage()[pri:0, instance:RegistrationPage.TC_31@4082ba93]" started-at="2025-09-04T16:30:23 IST" name="homePage" finished-at="2025-09-04T16:30:23 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verfiyNextPageLocation -->
-        <test-method is-config="true" signature="downApplication()[pri:0, instance:RegistrationPage.TC_23@15043a2f]" started-at="2025-09-03T19:03:43 IST" name="downApplication" finished-at="2025-09-03T19:03:47 IST" duration-ms="4916" status="PASS">
+        </test-method> <!-- homePage -->
+        <test-method signature="loginPage()[pri:0, instance:RegistrationPage.TC_31@4082ba93]" started-at="2025-09-04T16:30:23 IST" name="loginPage" finished-at="2025-09-04T16:30:24 IST" duration-ms="774" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downApplication -->
-      </class> <!-- RegistrationPage.TC_23 -->
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RegistrationPage.TC_31@4082ba93]" started-at="2025-09-04T16:30:24 IST" name="teardown" finished-at="2025-09-04T16:30:29 IST" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- RegistrationPage.TC_31 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
